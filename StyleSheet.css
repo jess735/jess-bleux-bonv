@@ -13,7 +13,7 @@ body{
 header{
     margin-bottom:120px;
 }
-footer{
+footer {
     text-align: center;
     padding: 20px 0 20px 0;
 }
@@ -121,8 +121,8 @@ aside h3{
 aside p, a {
     padding: 0 40px 0 40px; 
 }
-aside .fas{
-    color:#FFF;
+aside .fas, .far{
+    color:black;
     font-size:3em;
 }
 .aside_loisir_icons{
