@@ -1,7 +1,7 @@
 ﻿
 body{
-    max-width: 1190px;
-    margin:auto;
+    max-width: 1500px;
+    margin:0;
     font-family: 'Roboto', sans-serif;
     color:#424242;
     font-weight: 200;
@@ -18,7 +18,7 @@ footer {
     padding: 20px 0 20px 0;
 }
 .far, .fas{
-    color:black;
+    color:#ffd800;
 }
 
 
@@ -37,7 +37,7 @@ h2{
 h3{
     font-size:1.8em;
     text-transform: uppercase;
-    border-bottom:2px solid black;
+    border-bottom:2px solid #ffd800;
     padding-bottom:15px;
     font-weight: 500;
 }
@@ -112,8 +112,11 @@ aside img{
     margin:auto;
     margin-top:20px;
     margin-bottom: 20px;
+    width:250px;
+    height:300px;
 }
 aside h3{
+    color: #ffd800;
     background-color:#424242;
     padding : 10px;
     text-align: center;
@@ -122,7 +125,7 @@ aside p, a {
     padding: 0 40px 0 40px; 
 }
 aside .fas, .far{
-    color:black;
+    color:#424242;
     font-size:3em;
 }
 .aside_loisir_icons{
