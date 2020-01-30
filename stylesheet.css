@@ -105,15 +105,17 @@ aside{
     color:black; 
     text-align: justify;
 }
+
 aside img{
     border: 5px solid rgba(100,100,100,0.3);
-    border-radius: 300px;
+    border-radius:300px;
+    width: 200px;
+    height: 200px;
     display: flex;
     margin:auto;
     margin-top:20px;
     margin-bottom: 20px;
-    width:250px;
-    height:300px;
+  
 }
 aside h3{
     color: #ffd800;
@@ -161,7 +163,7 @@ address p{
 /* Tablettes */
 @media screen and (max-width: 991px) {
     .container{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     h1{
         font-size:3.4em;
